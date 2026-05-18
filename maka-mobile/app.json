@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Wallet MAKA",
+    "slug": "maka-mobile",
+    "version": "1.0.0",
+    "scheme": "maka",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#F3F5F2"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.maka.wallet"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#F3F5F2"
+      },
+      "package": "com.maka.wallet"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F3F5F2"
+        }
+      ],
+      "expo-asset"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
