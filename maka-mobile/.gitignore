@@ -23,6 +23,9 @@ yarn-error.*
 .DS_Store
 *.pem
 
+# editor/backup junk
+*.bak
+
 # local env files
 .env*.local
 .env
