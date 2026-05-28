@@ -1,0 +1,8 @@
+{
+  "git.openRepositoryInParentFolders": "always",
+  "git.ignoreLimitWarning": true,
+  "git.detectSubmodules": false,
+  "files.watcherExclude": {
+    "**/node_modules/**": true
+  }
+}
