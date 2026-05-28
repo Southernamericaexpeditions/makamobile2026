@@ -9,6 +9,8 @@
     "newArchEnabled": true,
     "icon": "./assets/icon.png",
     "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
       "backgroundColor": "#F3F5F2"
     },
     "ios": {
@@ -16,7 +18,10 @@
       "bundleIdentifier": "com.maka.wallet"
     },
     "android": {
+      "versionCode": 1,
+      "icon": "./assets/icon.png",
       "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#F3F5F2"
       },
       "package": "com.maka.wallet"
@@ -32,13 +37,31 @@
       [
         "expo-splash-screen",
         {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
           "backgroundColor": "#F3F5F2"
         }
       ],
-      "expo-asset"
+      "expo-asset",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "eaa8afde-6d80-4e91-8eef-e6170a29390d"
+      }
     }
   }
 }
