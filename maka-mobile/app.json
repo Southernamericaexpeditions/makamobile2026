@@ -24,7 +24,7 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#F3F5F2"
       },
-      "package": "com.maka.wallet"
+      "package": "com.maka.arriendo"
     },
     "web": {
       "bundler": "metro",
