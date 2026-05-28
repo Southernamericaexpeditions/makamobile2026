@@ -2,7 +2,11 @@
   "git.openRepositoryInParentFolders": "always",
   "git.ignoreLimitWarning": true,
   "git.detectSubmodules": false,
+  "git.useGitIgnore": true,
   "files.watcherExclude": {
     "**/node_modules/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true
   }
 }
